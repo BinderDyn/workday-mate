@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="render.js"></script>
+</head>
+
+<body>
+    <h1>WorkdayMate</h1>
+    <div class="input-group">
+        <div>
+            <label for="workdayLength">Workday length (h)</label>
+            <input id="workdayLength" type="number" min="0" value="8">
+        </div>
+    </div>
+    <div class="input-group">
+        <div>
+            <label for="alreadyWorkedHours">Already worked (h)</label>
+            <input id="alreadyWorkedHours" type="number" min="0" value="0">
+        </div>
+        <div>
+            <label for="alreadyWorkedMinutes">Already worked (min)</label>
+            <input id="alreadyWorkedMinutes" type="number" min="0" value="0">
+        </div>
+    </div>
+    <div class="input-group">
+        <div>
+            <label for="lunchbreakLength">Lunchbreak length (h)</label>
+            <input id="lunchbreakLength" type="number" min="0" value="0.5">
+        </div>
+    </div>
+    <div class="input-group">
+        <div>
+            <label for="lunchbreakDone">Lunchbreak done?</label>
+            <input id="lunchbreakDone" type="checkbox" value="false">
+        </div>
+    </div>
+</body>
+
+</html>
